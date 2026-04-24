@@ -1,0 +1,31 @@
+{
+    "name": "voodflow/voodcore",
+    "description": "Shared core primitives for Vood plugins (credentials, message templates, execution logs, node runtime).",
+    "keywords": [
+        "voodflow",
+        "laravel",
+        "filament",
+        "core",
+        "credentials",
+        "logs"
+    ],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Voodflow",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "illuminate/contracts": "^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Voodflow\\\\Voodcore\\\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
+
