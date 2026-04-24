@@ -10,4 +10,6 @@
 ### Contents (initial)
 - `Contracts/ExecutionLoggerInterface`: structured logging contract for execution traces.
 - `DataTransferObjects/TestResult`: small DTO used by credential/connectivity tests.
+- `Contracts/OAuth2FlowInterface` + `Support/Pkce`: reusable OAuth2/PKCE primitives.
+- `Contracts/HttpClientInterface` + `Contracts/CacheStoreInterface`: framework adapters surface (Laravel implementations live in plugins).
 
