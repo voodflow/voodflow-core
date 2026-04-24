@@ -1,6 +1,6 @@
 <?php
 
-namespace Voodflow\Voodcore\DataTransferObjects;
+namespace Voodflow\Core\DataTransferObjects;
 
 final class TestResult
 {

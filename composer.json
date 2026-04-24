@@ -1,5 +1,5 @@
 {
-    "name": "voodflow/voodcore",
+    "name": "voodflow/voodflow-core",
     "description": "Shared core primitives for Vood plugins (credentials, message templates, execution logs, node runtime).",
     "keywords": [
         "voodflow",
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Voodflow\\\\Voodcore\\\\": "src/"
+            "Voodflow\\\\Core\\\\": "src/"
         }
     },
     "minimum-stability": "dev",

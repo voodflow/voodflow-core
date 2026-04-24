@@ -1,6 +1,6 @@
 <?php
 
-namespace Voodflow\Voodcore\Contracts;
+namespace Voodflow\Core\Contracts;
 
 interface ExecutionLoggerInterface
 {
