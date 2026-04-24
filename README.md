@@ -12,4 +12,6 @@
 - `DataTransferObjects/TestResult`: small DTO used by credential/connectivity tests.
 - `Contracts/OAuth2FlowInterface` + `Support/Pkce`: reusable OAuth2/PKCE primitives.
 - `Contracts/HttpClientInterface` + `Contracts/CacheStoreInterface`: framework adapters surface (Laravel implementations live in plugins).
+- `Services/OAuth2Flow`: framework-agnostic OAuth2 implementation (requires Http/Cache adapters).
+- `Services/SmtpTester`: pure-PHP SMTP connectivity tester used by plugins.
 
